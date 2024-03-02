@@ -1,0 +1,285 @@
+
+.navbar {
+    margin-bottom:0%;
+    height:80px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(227, 231, 184);
+}
+
+.image {
+    height: 65px;
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 45px;
+    padding-top: 3px;
+}
+.text {
+    color:white;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 16px;
+    padding-left: 5px;
+    line-height: 18px;
+}
+span {
+    color:rgb(90, 123, 34);
+    font-size: 15px;
+    font-weight:bold;
+
+}
+
+.dropbtn {
+    color: white;
+    margin-left: 550px;
+    margin-top: 7px;
+    padding: 16px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    margin-left: 530px;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+
+}
+
+.dropdown-content a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(142, 192, 56);
+    border-radius: 30px;
+    color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color:white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.dropbtn2 {
+    color: white;
+    margin-top: 7px;
+    padding: 16px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content2 a:hover {
+    background-color:rgb(142, 192, 56);
+    border-radius: 18px;
+    color: #f9f9f9;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+    color:white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.dropbtn3 {
+    color:white;
+    margin-top: 7px;
+    padding: 16px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content3 a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content3 a:hover {
+    background-color:rgb(142, 192, 56);
+    border-radius: 18px;
+    color: #f9f9f9;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+.dropdown3:hover .dropbtn3 {
+    color:white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.dropbtn4 {
+    color:white;
+    margin-top: 7px;
+    padding: 16px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
+}
+#menu-bar{
+    display: none;
+ }
+
+ #menu-bar-label{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 16px;
+    color: rgb(116, 162, 35);
+    visibility: hidden;
+ }
+.dropbtn4:hover {
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/* menu */
+ 
+@media (max-width:400px) {
+    #menu-bar-label{
+        visibility: initial;
+        margin-left: 170px;
+       
+ }
+
+ .image {
+    height: 55px;
+    width: 55px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.text {
+  
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-left: 2px;
+    line-height: 15px;
+}
+
+span {
+    color: rgb(90, 123, 34);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.dropbtn{
+    visibility: hidden;
+}
+.dropbtn2{
+    visibility: hidden;
+}
+.dropbtn3{
+    visibility: hidden;
+}
+.dropbtn4{
+    visibility: hidden;
+}
+
+}

@@ -1,0 +1,818 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Exo', sans-serif;
+}
+.forfixing {
+    position: absolute;
+    width: 100%;
+    display: contents;
+}
+
+.navbar {
+    margin-bottom: 0%;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    background-image: url(assets/veg_pattern_01.png);
+    background-color: rgb(227, 231, 184);
+
+}
+
+#menu-bar{
+    display: none;
+ }
+
+ #menu-bar-label{
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 240px;
+    margin-top: 0px;
+    color: rgb(116, 162, 35);
+    visibility: hidden;
+ }
+
+.image {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    padding-left: 30px;
+ 
+
+}
+
+.text {
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 2px;
+    line-height: 18px;
+}
+
+span {
+    color: rgb(90, 123, 34);
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+ .dropbtn {
+    color: white;
+    margin-left: 220px;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 13px;
+    padding-left: 40px;
+    padding-right: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image: url(veg_pattern_01.png);
+    background-color: rgb(142, 192, 56);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 215px;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 18px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+
+}
+
+.dropdown-content a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(142, 192, 56);
+    border-radius: 18px;
+    color: #f9f9f9;
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.dropbtn2 {
+    color: white;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 13px;
+    padding-left: 35px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image: url(veg_pattern_01.png);
+    background-color: rgb(142, 192, 56);
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content2 a:hover {
+    background-color: rgb(142, 192, 56);
+    border-radius: 18px;
+    color: #f9f9f9;
+    text-decoration: underline;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+    color: white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.dropbtn3 {
+    color: white;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image: url(veg_pattern_01.png);
+    background-color: rgb(142, 192, 56);
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content3 a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content3 a:hover {
+    background-color: rgb(142, 192, 56);
+    border-radius: 18px;
+    color: #f9f9f9;
+    text-decoration: underline;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+.dropdown3:hover .dropbtn3 {
+    color: white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.dropbtn4 {
+ 
+    margin-top: 10px;
+    padding: 13px;
+    margin-right: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image: url(veg_pattern_01.png);
+    background-color: rgb(142, 192, 56);
+
+   
+}
+
+.dropbtn4 a {
+   color: #f9f9f9;
+   margin-left: 0px;
+   text-decoration: none;
+   display: block;
+   font-weight: bold;
+}
+
+.dropbtn4:hover {
+    color: white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.pic{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(assets/zlatko-duric-U4QkDQW84sg-unsplash.jpg);
+    height: 430px;
+    background-size: cover;
+    background-position: center;
+}
+
+#AAA{
+text-align: center;
+padding-top: 200px;
+color: aliceblue; 
+font-size: 50px;
+}
+#BBB{
+text-align: center;
+color: aliceblue;
+font-size: 20px;
+}
+#CCC{
+    color: rgb(119, 185, 19);
+    font-size: 20px;
+}
+#CCC:hover{
+    color: red;
+}
+#DDD{
+   margin-left: 600px;
+   font-size: x-large;
+    font-style:oblique;
+    color: rgb(94, 142, 21);
+}
+#EEE{
+    margin-left: 450px;
+    font-size: 40px;
+}
+
+#fff{
+    margin-left: 550px;
+   font-size: x-large;
+    font-style:oblique;
+    color: rgb(94, 142, 21);
+}
+#ggg{
+    margin-left: 430px;
+    font-size: 40px;
+}
+#hhh{
+    margin-left: 300px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.778);
+    margin-bottom: 30px;
+
+}
+
+.div1{
+    height: 850px;
+    width: 100%;
+   background-color:rgba(17, 166, 17, 0.084);
+}
+#childdiv1{
+    margin-left:15%;
+}
+#writename{
+    border-radius: 40px;
+    width:900px;
+    height: 50px;
+    border: none;
+    padding-left: 30px;
+}
+input ::placeholder{
+    justify-content: center;
+}
+#email{
+    width:900px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    padding-left: 30px;
+}
+input {
+    width: 200px;
+    padding: 10px; 
+}
+textarea{
+    height:150px;
+    width:900px;
+    margin-top:10px;
+    padding:10px;
+    border: none;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#jjj{
+    width:900px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    padding-left: 10px;
+    color: aliceblue;
+    background-color:rgb(211, 53, 53);
+}
+#jjj:hover{
+    background-color: rgba(19, 145, 19, 0.663);
+}
+#kkk{
+    margin-left: 600px;
+    font-size: x-large;
+     font-style:oblique;
+     color: rgb(94, 142, 21);
+}
+#lll{
+    margin-left: 450px;
+    font-size: 40px;
+}
+#person1{
+    height: 450px;
+    width: 550px;
+     background-color:rgba(152, 251, 152, 0.157);
+     border-radius: 40px;
+     border-style: double;
+}
+#mmm{
+    margin-left: 70px;
+    margin-top: 20px;
+   font-size:14px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#o{
+    margin-left: 250px;
+    font-size: 40px;
+}
+#ooo{
+    font-size: large;
+    margin-left: 230px;
+    margin-top: 45px;
+}
+#person2{
+    height: 450px;
+    width: 550px;
+     background-color:rgba(169, 169, 169, 0.161);
+     border-radius: 40px;
+     border-style: double;
+}
+#ppp{
+    margin-left: 250px;
+    font-size: 40px;
+}
+#qqq{
+  margin-left: 55px;
+  margin-top: 20px;
+    font-size:14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#rrr{
+    margin-left: 230px;
+    margin-top: 45px;
+    font-size: large;
+}
+#box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+#person3{
+    height: 450px;
+    width: 550px;
+     background-color:rgba(0, 139, 139, 0.118);
+     border-radius: 40px;
+     border-style: double;
+}
+#sss{
+    margin-left: 250px;
+    font-size: 40px;
+}
+#ttt{
+    margin-left: 55px;
+  margin-top: 20px;
+    font-size:14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#uuu{
+    margin-left: 200px;
+    margin-top: 45px;
+    font-size: large;
+}
+#person4{
+    height: 450px;
+    width: 550px;
+     background-color:rgba(152, 251, 152, 0.157);
+     border-radius: 40px;
+     border-style: double;
+}
+#vvv{
+    margin-left: 260px;
+    font-size: 40px;
+}
+#www{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size:14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#xxx{
+    margin-left: 220px;
+    margin-top: 45px;
+    font-size: large;
+}
+#box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+#box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#person5{
+    height: 450px;
+    width: 550px;
+     background-color:rgba(255, 0, 0, 0.08);
+     border-radius: 40px;
+     border-style: double;
+}
+#aa{
+    margin-left: 250px;
+    font-size: 40px;
+}
+#bb{
+    margin-left: 45px;
+    margin-top: 25px;
+    font-size:14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#cc{
+    margin-left: 220px;
+    margin-top: 35px;
+    font-size: large;
+}
+#person6{
+    height: 450px;
+    width: 550px;
+     background-color:rgba(222, 184, 135, 0.161);
+     border-radius: 40px;
+     border-style: double;
+}
+#dd{
+    margin-left: 250px;
+    font-size: 40px;
+}
+#ee{
+    margin-left: 35px;
+    margin-top: 25px;
+    font-size:14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#ff{
+    margin-left: 220px;
+    margin-top: 45px;
+    font-size: large;
+}
+#z{
+    margin-left: 620px;
+    font-size: 70px;
+}
+#x{
+    margin-left: 430px;
+    margin-top: 40px;
+    font-size:14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#n{
+   margin-left: 550px;
+   font-size: 20px;
+}
+#nn{
+margin-left: 585px;
+font-size: 20px ;
+}
+#nnn{
+margin-left: 585px;
+font-size: 20px;
+}
+/* footer */
+
+.section {
+    height: 40%;
+    width: 100%;
+    margin-top: 80px;
+    background-image: url(./assests/veg_pattern_01.png);
+    background-color: rgb(49, 67, 15);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+
+}
+
+#footer_para {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 3;
+    font-weight: 550;
+    width: 145%;
+
+}
+
+#icon_social {
+   color: #fff;
+    font-size: 28px;
+    padding-top: 10px;
+    transition: .3 ease;
+    padding-right: 15px;
+}
+
+#icon_social:hover {
+    transform: scale(1.2);
+}
+
+#icon_social2 {
+   color: #fff;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-right: 15px;
+    transition: .3 ease;
+}
+
+#icon_social2:hover {
+    transform: scale(1.2);
+}
+
+
+#icon {
+    color: rgb(129, 167, 47);
+}
+
+
+.footer_content2 {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.footer_content2 h3 {
+    color: rgb(129, 167, 47);
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.footer_content2 a {
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 70px;
+    font-size: 20px;
+    transition: .3s ease;
+}
+
+
+.footer_content2 a:hover {
+    transform: scale(1.2);
+    padding-left: 5;
+}
+
+.footer_content3 {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.footer_content3 h3 {
+    color: rgb(129, 167, 47);
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+#contact,
+#Phone {
+    margin-top: 35px;
+    color: rgb(129, 167, 47);
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+
+#Location,
+#Num {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.footer_content4 {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.footer_content4 h3 {
+    color: rgb(129, 167, 47);
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.footer_content4 p {
+    margin-left: 10px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.reserve {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    background-image: url(./assests/veg_pattern_01.png);
+    background-color: rgb(77, 114, 9);
+}
+
+#rights {
+    padding-left: 45px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 550;
+}
+
+
+
+/* footer responsive */
+
+
+@media (max-width:400px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, min-width(300px, auto));
+        gap: 1.5rem;
+    }
+
+    .footer_content2 {
+        margin-top: 270px;
+        margin-left: 0px;
+    }
+
+
+
+    .footer_content3 {
+        margin-right: 30px;
+    }
+
+
+    .footer_content4 {
+        margin-left: 30px;
+    }
+
+
+}
+
+@media (max-width:800px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, min-width(300px, auto));
+        gap: 1rem;
+
+    }
+}
+
+
+    .footer_content2 {
+        margin-top: 270px;
+        margin-left: 0px;
+    }
+
+
+    .footer_content3 {
+        margin-right: 30px;
+    }
+
+
+    .footer_content4 {
+        margin-left: 30px;
+    }
+
+
+
+    #icon_social,
+    #icon_social2 {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+
+
+ /* menu */
+ 
+ @media (max-width:400px) {
+    #menu-bar-label{
+        visibility: initial;
+        margin-left: 170px;
+      
+       
+ }
+
+ .image {
+    height: 55px;
+    width: 55px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.text {
+  
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-left: 2px;
+    line-height: 15px;
+}
+
+span {
+    color: rgb(90, 123, 34);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+}
+
+
+    @media (max-width:400px){
+
+    }
+
+

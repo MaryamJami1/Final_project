@@ -1,0 +1,598 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Exo', sans-serif;
+}
+.forfixing{
+    position:fixed;
+    width:100%;
+}
+.navbar {
+    position:fixed;
+    margin-bottom:0%;
+    height:90px;
+    width: 100%;
+    display: flex;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(227, 231, 184);
+ 
+}
+
+.image {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+}
+.text {
+    color:white;
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 17px;
+    padding-left: 2px;
+    line-height: 18px;
+}
+span {
+    color:rgb(90, 123, 34);
+    font-size: 15px;
+    font-weight:bold;
+
+}
+.dropbtn {
+    color: white;
+    margin-left: 550px;
+    margin-right: 15px;
+    margin-top: 25px;
+    padding: 13px;
+    padding-left:40px;
+    padding-right:45px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    margin-left: 540px;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 18px;
+   
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+
+}
+
+.dropdown-content a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(142, 192, 56);
+    border-radius: 18px;
+    color: #f9f9f9;
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color:white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.dropbtn2 {
+    color: white;
+    margin-top: 25px;
+    margin-right: 15px;
+    padding: 13px;
+    padding-left:35px;
+    padding-right:30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content2 a:hover {
+    background-color:rgb(142, 192, 56);
+    border-radius: 18px;
+    color: #f9f9f9;
+    text-decoration: underline;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+    color:white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.dropbtn3 {
+    color:white;
+    margin-top: 25px;
+    margin-right: 15px;
+    padding: 13px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content3 a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content3 a:hover {
+    background-color:rgb(142, 192, 56);
+    border-radius: 18px;
+    color: #f9f9f9;
+    text-decoration: underline;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+.dropdown3:hover .dropbtn3 {
+    color:white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.dropbtn4 {
+    color:white;
+    margin-top: 25px;
+    padding: 13px;
+    margin-right: 15px;
+    padding-right: 35px;
+    padding-left:35px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image:url(assets/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
+}
+
+.dropbtn4:hover {
+    color:white;
+    border-radius: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+
+.pic{
+    background-image: linear-gradient(rgba(126, 119, 119, 0.43), rgba(126, 119, 119, 0.31), rgba(175, 169, 169, 0.414)), url(assets/close-up-chef-cooking-restaurant-kitchen.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: top;
+}
+#AAA{
+text-align: center;
+padding-top: 200px;
+color: aliceblue; 
+font-size: 50px;
+}
+#BBB{
+text-align: center;
+padding-top: 10px;
+color: aliceblue;
+font-size: 25px;
+}
+#CCC{
+    color: rgb(119, 185, 19);
+    font-size: 25px;
+}
+#CCC:hover{
+    color: red;
+}
+.container22{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.child-div{
+text-align:center;
+margin-left: 15px;
+height: 275px;
+width: 360px;
+background-color: #f0f0f0;
+border-radius: 35px;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+justify-content: space-between;
+transition: .3s ease;
+}
+.child-div:hover{
+    transform: scale(1.2);
+}
+#pro{
+    margin-top: 10px;
+    border-radius: 28px;
+    width: 220px;
+    height: 180px;
+
+}
+
+#ppp{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#profession{
+    color: #000;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.child-div2{
+    text-align:center;
+    margin-left: 15px;
+    height: 275px;
+    width: 360px;
+    background-color: #f0f0f0;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    justify-content: space-between;
+    transition: .3s ease;
+    }
+.child-div2:hover{
+    transform: scale(1.2);
+}
+    #pro2{
+        margin-top: 10px;
+        border-radius: 28px;
+        width: 220px;
+        height: 180px;
+    }
+    #profession2{
+        color: #000;
+        color: #000;
+        font-size: 15px;
+    }
+    
+    #ppp2{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .container33{
+        display: flex;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .container{
+        max-width: 1170px;
+        margin: auto;
+    }
+    ul{
+        list-style: none;
+    }
+/* footer */
+
+.section {
+    height: 40%;
+    width: 100%;
+    margin-top: 80px;
+    background-image: url(./assests/veg_pattern_01.png);
+    background-color: rgb(49, 67, 15);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+
+}
+
+#footer_para {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 3;
+    font-weight: 550;
+    width: 145%;
+
+}
+
+#icon_social {
+   color: #fff;
+    font-size: 28px;
+    padding-top: 10px;
+    transition: .3 ease;
+    padding-right: 15px;
+}
+
+#icon_social:hover {
+    transform: scale(1.2);
+}
+
+#icon_social2 {
+   color: #fff;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-right: 15px;
+    transition: .3 ease;
+}
+
+#icon_social2:hover {
+    transform: scale(1.2);
+}
+
+
+#icon {
+    color: rgb(129, 167, 47);
+}
+
+
+.footer_content2 {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.footer_content2 h3 {
+    color: rgb(129, 167, 47);
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.footer_content2 a {
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 70px;
+    font-size: 20px;
+    transition: .3s ease;
+}
+
+
+.footer_content2 a:hover {
+    transform: scale(1.2);
+    padding-left: 5;
+}
+
+.footer_content3 {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.footer_content3 h3 {
+    color: rgb(129, 167, 47);
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+#contact,
+#Phone {
+    margin-top: 35px;
+    color: rgb(129, 167, 47);
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+
+#Location,
+#Num {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.footer_content4 {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.footer_content4 h3 {
+    color: rgb(129, 167, 47);
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.footer_content4 p {
+    margin-left: 10px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.reserve {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    background-image: url(./assests/veg_pattern_01.png);
+    background-color: rgb(77, 114, 9);
+}
+
+#rights {
+    padding-left: 45px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 550;
+}
+
+
+
+@media (max-width:400px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, min-width(300px, auto));
+        gap: 1.5rem;
+    }
+
+    .footer_content2 {
+        margin-top: 270px;
+        margin-left: 0px;
+    }
+
+
+
+    .footer_content3 {
+        margin-right: 30px;
+    }
+
+
+    .footer_content4 {
+        margin-left: 30px;
+    }
+
+
+    /* smoothies */
+
+    .smoothies {
+
+        flex-direction: column;
+        height: 300px;
+        margin-bottom: 600px;
+        margin-top: 600px;
+
+    }
+}
+
+@media (max-width:800px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, min-width(300px, auto));
+        gap: 1rem;
+
+    }
+}
+
+
+    .footer_content2 {
+        margin-top: 270px;
+        margin-left: 0px;
+    }
+
+
+    .footer_content3 {
+        margin-right: 30px;
+    }
+
+
+    .footer_content4 {
+        margin-left: 30px;
+    }
+
+
+
+    #icon_social,
+    #icon_social2 {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
